@@ -1,0 +1,8 @@
+c:\users\nguyenhongphat0\documents\visual studio 2015\Projects\KeyLogger\KeyLogger\bin\Debug\KeyLogger.exe
+c:\users\nguyenhongphat0\documents\visual studio 2015\Projects\KeyLogger\KeyLogger\bin\Debug\KeyLogger.pdb
+c:\users\nguyenhongphat0\documents\visual studio 2015\Projects\KeyLogger\KeyLogger\obj\Debug\KeyLogger.csprojResolveAssemblyReference.cache
+c:\users\nguyenhongphat0\documents\visual studio 2015\Projects\KeyLogger\KeyLogger\obj\Debug\KeyLogger.Properties.Resources.resources
+c:\users\nguyenhongphat0\documents\visual studio 2015\Projects\KeyLogger\KeyLogger\obj\Debug\KeyLogger.csproj.GenerateResource.Cache
+c:\users\nguyenhongphat0\documents\visual studio 2015\Projects\KeyLogger\KeyLogger\obj\Debug\KeyLogger.exe
+c:\users\nguyenhongphat0\documents\visual studio 2015\Projects\KeyLogger\KeyLogger\obj\Debug\KeyLogger.pdb
+c:\users\nguyenhongphat0\documents\visual studio 2015\Projects\KeyLogger\KeyLogger\obj\Debug\KeyLogger.MainForm.resources
